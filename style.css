@@ -1,0 +1,1085 @@
+.mainbox
+{
+    width: 100%;
+    height: 120px;
+    float: left;
+    background-color: deeppink;
+    
+}
+.nav-menubox
+{
+    width: 100%;
+    height: 110px;
+    background-color: deeppink;
+    position: fixed;
+    transition: 0.3s;
+    z-index: 12;
+}
+.logobox
+{
+    width: 20%;
+    height: 120px;
+    float: left;
+    
+}
+.logobox img
+{
+    width: 90px;
+    height: 105px;
+    margin-left: 30px ;
+}
+.navlist
+{
+    width: 50%;
+    height: 120px;
+    float: left;
+   
+}
+.navlist li
+{
+    list-style-type: none;
+    display: inline;
+    padding: 18px 20px;
+    padding-top: 40px;
+    margin: 5px;
+    margin-left: -5px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.navlist li a
+{
+    color: White;
+}
+.form1
+{
+    width: 25%;
+    height: 110px;
+    float: left;
+    padding-top: 45px;
+}
+.form1 img
+{
+    width: 25px;
+    height: 25px;
+}
+.form1 button
+{
+    padding: 8px 16px;
+    background-color:rgb(255, 136, 0)  ;
+}
+#searchbox:focus
+{
+    outline-color: deeppink;
+}
+.navlist li a:hover
+{
+    background-color:rgb(255, 136, 0);
+    border-radius: 5px;
+}
+#nav1
+{
+    background-color: rgb(255, 136, 0);
+    border-radius: 5px;
+}
+.second-mainbox
+{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top: 0px;
+}
+.sliderbox
+{
+    width: 100%;
+    height: 540px; 
+    margin-top: 30px;  
+   float: left;
+   position: relative;
+}
+.slider-rightbox
+{
+    width: 65%;
+    height: 500px;
+    float: left;
+    margin-top: 5px;
+   
+}
+.slider-rightbox img
+{
+    width: 65%;
+    height: 500px;
+}
+.slider-rightbox h5
+{
+    font-size: 24px;
+    color: white;
+    font-style: bold;
+}
+
+.slider-leftbox
+{
+    width: 35%;
+    height: 500px;
+    float: left;
+    color: white;
+    margin-top: 30x;
+}
+#signup-btn
+{
+    outline-offset: 2px;
+    outline-color: rgb(255, 136, 0);
+    outline-style: solid;
+    padding: 14px 16px;
+    background-color: none; 
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+#signup-btn:hover
+{
+    background-color: rgb(255, 136, 0);
+
+}
+.slider-leftbox p
+{
+    padding-left: 50px;
+    padding-right:50px;
+    padding-top: 100px;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.introbox
+{
+    width: 100%;
+    height: 1380px;
+    background-color: white; 
+    margin-left: 40px;  
+  
+}
+.intro-picbox
+{
+    width: 35%;
+    height: 500px;
+    float: left; 
+    margin-top: 30px;
+   
+}
+#intro-head
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+}
+.introbox p
+{
+    color:rgb(255, 136, 0);
+   
+    text-align: center;
+}
+
+.introbox span
+{
+    color:deeppink;
+   
+    text-align: center;
+}
+.intro-picbox img
+{
+    width:95%;
+    height: 480px;
+    margin-left: 40px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: deeppink;
+}
+.intro-infobox
+{
+    width: 60%;
+    height:420px;
+    float: left;
+    margin-left: -60px;
+    margin-top: 60px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 10px 15px 50px deeppink;
+}
+.intro-infobox:hover
+{
+    box-shadow: 10px 15px 50px rgb(255, 136, 0);
+}
+.intro-infobox p
+{
+    color: white;
+    font-size: 20px ;
+    text-align: center;
+    padding-top: 110px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.goal-box
+{
+    width: 100%;
+    height: 600px;  
+ 
+}
+.goal-picbox
+{
+    width: 98%;
+    height: 390px;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-align: center;
+    position: relative;
+    color: white;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: deeppink;
+}
+.goal-picbox img
+{
+    width: 100%;
+    height: 390px;
+}  
+.centertext
+{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    color: white;
+    font-size: 48px;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+.centertext p
+{
+    position: absolute;
+    top: 100%;
+    left: 9%;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.goal-numbox
+{
+    width: 85%;
+    height: 250px;
+    margin-left: 103px;
+    margin-top: -50px; 
+    float: left;
+}
+.numbox1
+{
+    width: 20%;
+    height: 220px;
+    margin-left: 130px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top: -220px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 10px 15px 50px rgb(107, 106, 106);
+}
+.numbox1:hover
+{
+    box-shadow: 10px 15px 50px rgb(255, 136, 0);
+}
+.numbox2
+{
+    width: 20%;
+    height: 220px;
+    margin-left: 550px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top: -220px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 10px 15px 50px rgb(107, 106, 106);
+}
+.numbox2:hover
+{
+    box-shadow: 10px 15px 50px rgb(255, 136, 0);
+}
+.numbox3
+{
+    width: 20%;
+    height: 220px;
+    margin-left: 960px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top: -220px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 10px 15px 50px rgb(107, 106, 106);
+}
+.numbox3:hover
+{
+    box-shadow: 10px 15px 50px rgb(255, 136, 0);
+}
+.numbox-text
+{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+}
+#p1
+{
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p2
+{
+    margin-top: -15px;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.service-offerbox
+{
+    width: 100%;
+    background-size: cover;
+    height: 610px;
+    margin-top: 14px;
+    margin-left: 0px;
+    text-align: center;
+}
+.service-head
+{
+    padding-top: 80px ;
+    font-size: 24px;
+    font-family:"Albertiny Demo";
+
+}
+.service-head h1
+{
+    font-weight: bolder;
+    font-size: 50px;
+    color: deeppink;
+}
+.service-head p
+{
+    margin-left: 120px;
+    margin-right: 120px;
+    color: rgb(255, 136, 0);
+}
+.service-box
+{
+    width: 98%;
+    height: 400px;
+    margin-left: 12px;    
+}
+.sb1-text h5
+{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sb1-text p
+{
+    color:white;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sb2-text h5
+{
+    color: deeppink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sb2-text p
+{
+    color:rgb(255, 136, 0);
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.service-box img
+{
+    width: 100%;
+    height: 160px;
+}
+.sb1
+{
+    width: 20%;
+    height: 380px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top:25px;
+   
+}
+.sb1:hover
+{
+    box-shadow: 5px 5px 20px deeppink;
+}
+.sb1-pic
+{
+    width: 90%;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.sb1-text
+{
+    width: 90%;
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+#sb1-btn
+{
+        outline-offset: 2px;
+        outline-color: rgb(255, 136, 0);
+        outline-style: solid;
+        padding: 10px 14px;
+        background-color: none; 
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+}
+#sb1-btn:hover
+{
+    background-color: rgb(255, 136, 0);
+}
+.sb2
+{
+    width: 20%;
+    height: 380px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 5px 5px 20px rgb(107, 106, 106);
+    float: left;
+}
+.sb2:hover
+{
+    box-shadow: 5px 5px 20px rgb(255, 136, 0);
+}
+.sb2-pic
+{
+    width: 90%;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.sb2-text
+{
+    width: 90%;
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+#sb2-btn
+{
+        outline-offset: 2px;
+        outline-color: rgb(255, 136, 0);
+        outline-style: solid;
+        padding: 10px 14px;
+        background-color: none; 
+        border-radius: 5px;
+        text-decoration: none;
+        color: deeppink;
+        font-size: 15px;
+        font-weight: bolder;
+}
+#sb2-btn:hover
+{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.sb3
+{
+    width: 20%;
+    height: 380px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top:25px;
+}
+.sb3:hover
+{
+    box-shadow: 5px 5px 20px deeppink;
+}
+.sb3-pic
+{
+    width: 90%;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.sb3-text
+{
+    width: 90%;
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+#sb3-btn
+{
+        outline-offset: 2px;
+        outline-color: rgb(255, 136, 0);
+        outline-style: solid;
+        padding: 10px 14px;
+        background-color: none; 
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+}
+#sb3-btn:hover
+{
+    background-color: rgb(255, 136, 0);
+}
+.sb4
+{
+    width: 20%;
+    height: 380px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 5px 5px 20px rgb(107, 106, 106);
+    float: left;
+}
+.sb4:hover
+{
+    box-shadow: 5px 5px 20px rgb(255, 136, 0);
+}
+.sb4-pic
+{
+    width: 90%;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.sb4-text
+{
+    width: 90%;
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+#sb4-btn
+{
+        outline-offset: 2px;
+        outline-color: rgb(255, 136, 0);
+        outline-style: solid;
+        padding: 10px 14px;
+        background-color: none; 
+        border-radius: 5px;
+        text-decoration: none;
+        color: deeppink;
+        font-size: 15px;
+        font-weight: bolder;
+}
+#sb4-btn:hover
+{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+.sb5
+{
+    width: 20%;
+    height: 380px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top:25px;
+}
+
+.sb5:hover
+{
+    box-shadow: 5px 5px 20px deeppink;
+}
+.sb5-pic
+{
+    width: 90%;
+    height: 160px;
+    margin-left: 13px;
+    margin-top: 13px;
+}
+.sb5-text
+{
+    width: 90%;
+    height: 120px;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-bottom: 22px;
+}
+#sb5-btn
+{
+        outline-offset: 2px;
+        outline-color: rgb(255, 136, 0);
+        outline-style: solid;
+        padding: 10px 14px;
+        background-color: none; 
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+}
+#sb5-btn:hover
+{
+    background-color: rgb(255, 136, 0);
+}
+
+.recent-project-box
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 120px;
+}
+.recent-project-box h1
+{
+    color: deeppink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+.recent-project-box span
+{
+    color: rgb(255, 136, 0);
+}
+.rpbox-nav
+{
+    width: 60%;
+    height: 100px;
+    margin-left: 290px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-top: 30px;
+    
+}
+.rpbox-nav li
+{
+    display: inline;
+    list-style-type: none;
+    font-size: 14px;
+    text-decoration: none;
+    margin-left: 60px;
+   
+}
+.rpbox-nav li a
+{
+    color: rgb(255, 136, 0);
+    padding: 12px 14px;
+    margin-top: 70px;  
+}
+.rpbox-nav li a:hover
+{
+    background-color: deeppink;
+    border-radius: 5px;
+    color: white;
+}
+#nav2
+{
+    background-color: deeppink;
+    border-radius: 5px;
+    color: white;
+}
+
+.row1
+{
+    width: 100%;
+    height: 250px;
+    margin-top: -40px;
+}
+.rpbox-1
+{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left:240px;
+    outline-offset: 7px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+   
+}
+.rpbox-1:hover
+{
+    box-shadow: 5px 5px 20px rgb(107, 106, 106); 
+}
+.rpbox-2
+{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    outline-offset: 7px;
+    outline-style: solid;
+    outline-color: deeppink;
+}
+.rpbox-2:hover
+{
+    box-shadow: 5px 5px 20px rgb(107, 106, 106); 
+}
+.rpbox-3
+{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    outline-offset: 7px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+}
+.rpbox-3:hover
+{
+    box-shadow: 5px 5px 20px rgb(107, 106, 106); 
+}
+.row2
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    
+}
+.rpbox-4
+{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left:240px;
+    outline-offset: 7px;
+    outline-style: solid;
+    outline-color: deeppink;
+}
+.rpbox-4:hover
+{
+    box-shadow: 5px 5px 20px rgb(107, 106, 106); 
+}
+.rpbox-5
+{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    outline-offset: 7px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+}
+.rpbox-5:hover
+{
+    box-shadow: 5px 5px 20px rgb(107, 106, 106); 
+}
+.rpbox-6
+{
+    width: 20%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    outline-offset: 7px;
+    outline-style: solid;
+    outline-color: deeppink;
+}
+.rpbox-6:hover
+{
+    box-shadow: 5px 5px 20px rgb(107, 106, 106); 
+}
+.row1 img
+{
+    width: 100%;
+    height: 250px ;
+}
+.row2 img
+{
+    width: 100%;
+    height: 250px ;
+}
+.footer
+{
+    width: 100%;
+    height: 150px;
+    background-color: dimgrey;
+    margin-top: 290px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+}
+
+@media(max-width:1190px)
+{
+    .navlist li
+    {
+        padding: 14px 16px;
+        padding-top: 40px;
+        margin: 5px;
+        margin-left: -5px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+    .logobox img
+    {
+        width: 90px;
+        height: 105px;
+        margin-left: 30px ;
+    }
+    .form1 button
+    {
+        padding: 6px 12px;
+        background-color:rgb(255, 136, 0)  ;
+    }
+    #signup-btn
+    {
+        outline-offset: 2px;
+        outline-color: rgb(255, 136, 0);
+        outline-style: solid;
+        padding: 12px 14px;
+        background-color: none; 
+        border-radius: 5px;
+        text-decoration: none;
+        color: white;
+        font-size: 15px;
+    }
+    .slider-leftbox p
+    {
+        padding-left: 50px;
+        padding-right:50px;
+        padding-top: 100px;
+        font-size: 16px;
+        margin-left: 20px;
+    }
+    .introbox
+    {
+        width: 98%;
+        height: 1350px;
+      
+    }
+    .goal-picbox
+    {
+        width: 95%;
+        height: 390px;
+        margin-left: 10px;
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+        color: white;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: deeppink;
+    }
+.numbox1
+    {
+        width: 20%;
+        height: 220px;
+        margin-left: 90px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top: -220px;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: rgb(255, 136, 0);
+        box-shadow: 10px 15px 50px rgb(107, 106, 106);
+    }
+.numbox2
+{
+    width: 20%;
+    height: 220px;
+    margin-left: 470px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top: -220px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 10px 15px 50px rgb(107, 106, 106);
+}
+.numbox3
+{
+    width: 20%;
+    height: 220px;
+    margin-left: 830px;
+    background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+    float: left;
+    margin-top: -220px;
+    outline-offset: 5px;
+    outline-style: solid;
+    outline-color: rgb(255, 136, 0);
+    box-shadow: 10px 15px 50px rgb(107, 106, 106);
+}
+.service-box
+    {
+        width: 95%;
+        height: 410px;
+        margin-left: 12px;    
+    }
+.sb1
+    {
+        width: 20%;
+        height: 400px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top:25px;
+       
+    }
+.sb2
+    {
+        width: 20%;
+        height: 400px;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: rgb(255, 136, 0);
+        box-shadow: 5px 5px 20px rgb(107, 106, 106);
+        float: left;
+    }
+.sb3
+    {
+        width: 20%;
+        height: 400px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top:25px;
+    }
+.sb4
+    {
+        width: 20%;
+        height: 400px;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: rgb(255, 136, 0);
+        box-shadow: 5px 5px 20px rgb(107, 106, 106);
+        float: left;
+    }
+.sb5
+    {
+        width: 20%;
+        height: 400px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top:25px;
+    }
+.rpbox-nav li
+    {
+        display: inline;
+        list-style-type: none;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 40px;
+       
+    }
+.row1
+    {
+        width: 93%;
+        height: 225px;
+        margin-top: -40px;
+    }
+.row2
+    {
+        width: 93%;
+        height: 225px;
+        margin-top: 55px;
+        
+    }
+}
+
+@media(max-width:1026px)
+{
+    .navlist li
+    {
+        padding: 12px 14px;
+        padding-top: 40px;
+        margin: 5px;
+        margin-left: -2px;
+        text-decoration: none;
+        font-size: 14px;
+    }
+.form1 img
+    {
+        width: 22px;
+        height: 22px;
+    }
+.form1 button
+    {
+        padding: 6px 12px;
+        background-color:rgb(255, 136, 0)  ;
+    }
+.numbox1
+    {
+        width: 20%;
+        height: 200px;
+        margin-left: 100px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top: -220px;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: rgb(255, 136, 0);
+        box-shadow: 10px 15px 50px rgb(107, 106, 106);
+    }
+.numbox2
+    {
+        width: 20%;
+        height: 200px;
+        margin-left: 400px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top: -220px;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: rgb(255, 136, 0);
+        box-shadow: 10px 15px 50px rgb(107, 106, 106);
+    }
+.numbox3
+    {
+        width: 20%;
+        height: 200px;
+        margin-left: 700px;
+        background-image: linear-gradient(deeppink,rgb(255, 136, 0) );
+        float: left;
+        margin-top: -220px;
+        outline-offset: 5px;
+        outline-style: solid;
+        outline-color: rgb(255, 136, 0);
+        box-shadow: 10px 15px 50px rgb(107, 106, 106);
+    }
+#p1
+{
+    font-size: 90px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#p2
+{
+    margin-top: -5px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.rpbox-nav li
+    {
+        display: inline;
+        list-style-type: none;
+        font-size: 12px;
+        text-decoration: none;
+        margin-left: 15px;
+       
+    }
+    .row1
+    {
+        width: 93%;
+        height: 225px;
+        margin-top: -40px;
+        margin-left: -20px;
+    }
+    .row2
+    {
+        width: 93%;
+        height: 225px;
+        margin-top: 55px;
+        margin-left: -20px;
+    }
+    
+}
+
